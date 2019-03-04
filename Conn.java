@@ -8,7 +8,7 @@ public class Conn {
             e.printStackTrace();
         }
         try {
-            con=DriverManager.getConnection("jdbc:mysql://localhost:3306/Novels?serverTimezone=UTC","root","ldq!0084");
+            con=DriverManager.getConnection("jdbc:mysql://localhost:3306/Novels?serverTimezone=UTC","root","root");
             System.out.println("数据库连接成功");
         }catch (SQLException e){
             e.printStackTrace();
